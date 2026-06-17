@@ -1,0 +1,17 @@
+[
+  {
+    "id_menu": "menu-ejemplo-2026-06-17",
+    "restaurante_slug": "ejemplo",
+    "fecha_menu": "2026-06-17",
+    "estado": "sin_menu_hoy",
+    "tiene_menu_hoy": false,
+    "titulo": "Menú del día",
+    "json_menu": {
+      "tipo": "sin_menu_disponible",
+      "mensaje": "Todavía no tenemos el menú de hoy de este restaurante.",
+      "recomendacion": "Puedes volver más tarde, llamar al restaurante o consultar menús recientes para hacerte una idea."
+    },
+    "html_menu": "<p><strong>Todavía no tenemos el menú de hoy.</strong></p><p>Puedes volver más tarde, llamar al restaurante o consultar menús recientes.</p>",
+    "historico_disponible": true
+  }
+]
