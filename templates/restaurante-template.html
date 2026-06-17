@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[RESTAURANTE] · Buscamenú</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #222;
+    }
+
+```
+header {
+  background: #1a1a2e;
+  color: white;
+  padding: 24px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header p {
+  margin: 6px 0 0;
+  color: #ccc;
+}
+
+main {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 18px;
+}
+
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 22px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.module-title {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #29b6d8;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.restaurant-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.muted {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.menu-placeholder {
+  border: 1px dashed #ccc;
+  padding: 18px;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.history-list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.history-item {
+  background: #eef9fc;
+  border: 1px solid #c8eef7;
+  color: #1a8fa8;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 13px;
+}
+
+footer {
+  text-align: center;
+  padding: 24px;
+  color: #777;
+  font-size: 13px;
+}
+```
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Buscamenú</h1>
+    <p>Plantilla provisional de tarjeta de restaurante</p>
+  </header>
+
+  <main>
+
+```
+<!-- MÓDULO 1: DATOS ESTABLES DEL RESTAURANTE -->
+<section class="card">
+  <div class="module-title">Módulo 1 · Restaurante</div>
+  <div class="restaurant-name">[RESTAURANTE]</div>
+  <div class="muted">
+    [TIPO] · [CATEGORÍA]<br>
+    [DIRECCIÓN]<br>
+    [PUEBLO] · Madrid<br>
+    Teléfono: [TELÉFONO]<br>
+    Web: [WEB]
+  </div>
+</section>
+
+<!-- MÓDULO 2: MENÚ DE HOY -->
+<section class="card">
+  <div class="module-title">Módulo 2 · Menú de hoy</div>
+
+  <div class="menu-placeholder">
+    <p><strong>[MENÚ_HOY]</strong></p>
+    <p class="muted">
+      Aquí se insertará el menú interpretado por IA a partir del WhatsApp recibido.
+      Puede ser un menú clásico, varios menús, sugerencias del día, plato del día,
+      o un aviso de que todavía no hay menú disponible.
+    </p>
+  </div>
+</section>
+
+<!-- MÓDULO 3: HISTÓRICO / CARRUSEL -->
+<section class="card">
+  <div class="module-title">Módulo 3 · Menús recientes</div>
+
+  <p class="muted">
+    Si todavía no hay menú publicado hoy, este bloque permitirá ver menús recientes
+    para hacerse una idea del estilo y precios del restaurante.
+  </p>
+
+  <div class="history-list">
+    <span class="history-item">[MENÚ_ANTERIOR_1]</span>
+    <span class="history-item">[MENÚ_ANTERIOR_2]</span>
+    <span class="history-item">[MENÚ_ANTERIOR_3]</span>
+  </div>
+</section>
+```
+
+  </main>
+
+  <footer>
+    Buscamenú · Plantilla provisional · Sustituible por la versión definitiva
+  </footer>
+
+</body>
+</html>
