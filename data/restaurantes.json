@@ -1,0 +1,20 @@
+[
+  {
+    "id_restaurante": "restaurante-ejemplo",
+    "slug": "ejemplo",
+    "nombre": "Restaurante Ejemplo",
+    "pueblo": "San Lorenzo de El Escorial",
+    "tipo": "Restaurante",
+    "categoria": "Menú del día",
+    "direccion": "Dirección pendiente",
+    "codigo_postal": "28200",
+    "telefono": "",
+    "email": "",
+    "web": "",
+    "whatsapp_reservas": "",
+    "google_maps_url": "",
+    "foto_url": "",
+    "activo": true,
+    "url_publica": "/restaurantes/ejemplo/"
+  }
+]
