@@ -1,16 +1,35 @@
-## Hi there 👋
+# Buscamenú
 
-<!--
-**Buscamenu/Buscamenu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Repositorio estructural del proyecto Buscamenú.
 
-Here are some ideas to get you started:
+Este repositorio contiene la base para generar y organizar páginas de restaurantes con menús del día, pensadas para ser servidas como páginas estáticas rápidas.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Objetivo
+
+Buscamenú permite consultar menús del día de restaurantes cercanos.
+
+La arquitectura prevista separa:
+
+- Datos estables de restaurantes.
+- Menús variables recibidos por WhatsApp.
+- Plantillas HTML de tarjetas.
+- Páginas estáticas generadas para cada restaurante.
+- Registro de publicaciones pendientes, procesadas o publicadas.
+
+## Estructura del repositorio
+
+```text
+data/
+  restaurantes.json
+  menus.json
+  publicaciones.json
+
+docs/
+  arquitectura.md
+
+templates/
+  restaurante-template.html
+
+restaurantes/
+  ejemplo/
+    index.html
