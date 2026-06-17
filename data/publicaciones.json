@@ -1,0 +1,15 @@
+[
+  {
+    "id_publicacion": "pub-ejemplo-base-2026-06-17",
+    "restaurante_slug": "ejemplo",
+    "tipo_publicacion": "tarjeta_base",
+    "estado": "publicado",
+    "fecha_solicitud": "2026-06-17T08:00:00Z",
+    "fecha_publicacion": "2026-06-17T08:05:00Z",
+    "motivo": "Generación provisional de tarjeta base",
+    "ruta_github": "restaurantes/ejemplo/index.html",
+    "url_publica": "/restaurantes/ejemplo/",
+    "intentos": 1,
+    "ultimo_error": ""
+  }
+]
