@@ -72,6 +72,82 @@ Si se ejecuta en un ordenador con Node.js instalado, el comando sería:
 ```bash
 node scripts/generar-ficha-demo.js
 ```
+## 4.1. Comandos disponibles con npm
+
+El archivo `package.json` define comandos para ejecutar los scripts de demostración de forma más clara.
+
+Comandos disponibles:
+
+```bash
+npm run generar:ficha-demo
+npm run generar:busqueda-demo
+npm run generar:lote-demo
+```
+
+### Generar ficha demo
+
+```bash
+npm run generar:ficha-demo
+```
+
+Ejecuta:
+
+```text
+scripts/generar-ficha-demo.js
+```
+
+Salida esperada:
+
+```text
+restaurantes/casa-pepe-generado/index.html
+```
+
+### Generar JSON de búsqueda demo
+
+```bash
+npm run generar:busqueda-demo
+```
+
+Ejecuta:
+
+```text
+scripts/generar-busqueda-demo.js
+```
+
+Salida esperada:
+
+```text
+data/busqueda-menus-hoy.json
+```
+
+### Generar lote demo
+
+```bash
+npm run generar:lote-demo
+```
+
+Ejecuta:
+
+```text
+scripts/generar-lote-demo.js
+```
+
+Este comando representa el flujo de publicación por lote. Lanza en orden:
+
+```text
+generar ficha demo
+generar JSON de búsqueda demo
+```
+
+Es la primera maqueta del futuro proceso:
+
+```text
+publicaciones pendientes
+→ lote
+→ fichas HTML
+→ JSON de búsqueda
+→ un único commit/deploy
+```
 
 Al ejecutarlo correctamente debería aparecer un mensaje parecido a:
 
