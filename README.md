@@ -424,3 +424,11 @@ JSON de búsqueda
 publicación agrupada
 
 En el sistema real, los datos vendrán de Airtable y no estarán escritos directamente en los scripts.
+
+datos de restaurante y menú
+plantilla HTML
+ficha pública
+JSON de búsqueda
+publicación agrupada
+
+En el sistema real, los datos vendrán de Airtable y no estarán escritos directamente en los scripts.
