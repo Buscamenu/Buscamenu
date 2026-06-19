@@ -1,4 +1,4 @@
-```js
+
 const { execFileSync } = require("child_process");
 const path = require("path");
 
@@ -26,4 +26,4 @@ function main() {
 }
 
 main();
-```
+
