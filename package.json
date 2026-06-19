@@ -1,0 +1,21 @@
+```json
+{
+  "name": "buscamenu-laboratorio",
+  "version": "0.1.0",
+  "description": "Repositorio de laboratorio para Buscamenú: buscador, fichas demo, plantillas y scripts de generación.",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "generar:ficha-demo": "node scripts/generar-ficha-demo.js"
+  },
+  "keywords": [
+    "buscamenu",
+    "menus",
+    "restaurantes",
+    "static-site",
+    "node"
+  ],
+  "author": "Buscamenú",
+  "license": "UNLICENSED"
+}
+```
