@@ -388,47 +388,41 @@ checklist de traslado a producción creada
 
 El siguiente paso será decidir si:
 
-seguir refinando en laboratorio
-crear una prueba de generación automática desde la plantilla
-trasladar el buscador y las demos a producción en un único commit
-16. Scripts de generación demo
+* seguir refinando en laboratorio
+* crear una prueba de generación automática desde la plantilla
+* trasladar el buscador y las demos a producción en un único commit
 
-El repositorio incluye una primera capa de scripts de demostración en la carpeta scripts/.
+## 16. Scripts de generación demo
+
+El repositorio incluye una primera capa de scripts de demostración en la carpeta `scripts/`.
 
 Scripts actuales:
 
-scripts/generar-ficha-demo.js
-scripts/generar-busqueda-demo.js
-scripts/generar-lote-demo.js
+* `scripts/generar-ficha-demo.js`
+* `scripts/generar-busqueda-demo.js`
+* `scripts/generar-lote-demo.js`
 
 Estos scripts no se ejecutan desde GitHub web. Están preparados para ejecutarse en un entorno con Node.js, como un ordenador local, Railway, GitHub Actions u otro servicio de automatización.
 
-Comandos disponibles en package.json:
+Comandos disponibles en `package.json`:
 
-npm run generar:ficha-demo
-npm run generar:busqueda-demo
-npm run generar:lote-demo
+* `npm run generar:ficha-demo`
+* `npm run generar:busqueda-demo`
+* `npm run generar:lote-demo`
 
 Función de cada comando:
 
-generar:ficha-demo: genera una ficha HTML desde templates/restaurante-template.html.
-generar:busqueda-demo: genera data/busqueda-menus-hoy.json desde datos demo.
-generar:lote-demo: ejecuta la generación de ficha y de búsqueda como primera maqueta de publicación por lote.
+* `generar:ficha-demo`: genera una ficha HTML desde `templates/restaurante-template.html`.
+* `generar:busqueda-demo`: genera `data/busqueda-menus-hoy.json` desde datos demo.
+* `generar:lote-demo`: ejecuta la generación de ficha y de búsqueda como primera maqueta de publicación por lote.
 
 La finalidad de estos scripts es demostrar el mecanismo futuro:
 
-datos de restaurante y menú
-plantilla HTML
-ficha pública
-JSON de búsqueda
-publicación agrupada
+* datos de restaurante y menú
+* plantilla HTML
+* ficha pública
+* JSON de búsqueda
+* publicación agrupada
 
 En el sistema real, los datos vendrán de Airtable y no estarán escritos directamente en los scripts.
-
-datos de restaurante y menú
-plantilla HTML
-ficha pública
-JSON de búsqueda
-publicación agrupada
-
-En el sistema real, los datos vendrán de Airtable y no estarán escritos directamente en los scripts.
+.
