@@ -1,4 +1,4 @@
-```gitignore
+
 # Dependencias de Node
 node_modules/
 
@@ -27,4 +27,4 @@ build/
 # Configuración local de editores
 .vscode/
 .idea/
-```
+
