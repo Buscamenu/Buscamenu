@@ -425,4 +425,4 @@ La finalidad de estos scripts es demostrar el mecanismo futuro:
 * publicación agrupada
 
 En el sistema real, los datos vendrán de Airtable y no estarán escritos directamente en los scripts.
-.
+
