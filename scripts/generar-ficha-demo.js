@@ -135,7 +135,7 @@ function main() {
     ),
     "[BOTON_LLAMAR]": boton(
       "",
-      `tel:${restaurante.telefonoPublico.replaceAll(" ", "")}`,
+     `tel:${String(restaurante.telefonoPublico).replace(/\s+/g, "")}`,
       "Llamar"
     ),
     "[BOTON_MAPS]": boton(
