@@ -1,0 +1,266 @@
+{
+"fecha_generacion": "2026-06-21",
+"municipio": "Hoyo de Manzanares",
+"ventana_revision_minutos": 3,
+"restaurantes": [
+{
+"restaurante_id": "rest_001",
+"nombre": "Casa Pepe Demo",
+"slug": "casa-pepe-generado",
+"municipio": "Hoyo de Manzanares",
+"direccion": "Plaza Mayor, 1",
+"codigo_postal": "28240",
+"provincia": "Madrid",
+"telefono_publico": "910 000 001",
+"whatsapp_reservas": "34600000001",
+"email": "[casa-pepe-demo@example.com](mailto:casa-pepe-demo@example.com)",
+"web": "",
+"google_maps_url": "https://maps.google.com/?q=Plaza+Mayor+1+Hoyo+de+Manzanares",
+"lat": 40.6228,
+"lng": -3.9077,
+"categoria": "cocina tradicional",
+"descripcion": "Restaurante demo de cocina casera y menú del día.",
+"estado_restaurante": "activo",
+"imagen_tipo": "generica",
+"imagen_url": "",
+"activo_en_buscador": true
+},
+{
+"restaurante_id": "rest_002",
+"nombre": "Pivo Demo",
+"slug": "pivo-generado",
+"municipio": "Hoyo de Manzanares",
+"direccion": "Avenida de la Paloma, 12",
+"codigo_postal": "28240",
+"provincia": "Madrid",
+"telefono_publico": "910 000 002",
+"whatsapp_reservas": "34600000002",
+"email": "[pivo-demo@example.com](mailto:pivo-demo@example.com)",
+"web": "",
+"google_maps_url": "https://maps.google.com/?q=Avenida+de+la+Paloma+12+Hoyo+de+Manzanares",
+"lat": 40.6235,
+"lng": -3.9088,
+"categoria": "bar restaurante",
+"descripcion": "Restaurante demo con menú variado y platos de temporada.",
+"estado_restaurante": "activo",
+"imagen_tipo": "generica",
+"imagen_url": "",
+"activo_en_buscador": true
+},
+{
+"restaurante_id": "rest_003",
+"nombre": "Focaccia Demo",
+"slug": "focaccia-generado",
+"municipio": "Hoyo de Manzanares",
+"direccion": "Calle Real, 8",
+"codigo_postal": "28240",
+"provincia": "Madrid",
+"telefono_publico": "910 000 003",
+"whatsapp_reservas": "34600000003",
+"email": "[focaccia-demo@example.com](mailto:focaccia-demo@example.com)",
+"web": "",
+"google_maps_url": "https://maps.google.com/?q=Calle+Real+8+Hoyo+de+Manzanares",
+"lat": 40.6219,
+"lng": -3.9065,
+"categoria": "italiano",
+"descripcion": "Restaurante demo de inspiración italiana.",
+"estado_restaurante": "activo",
+"imagen_tipo": "generica",
+"imagen_url": "",
+"activo_en_buscador": true
+}
+],
+"menus": [
+{
+"menu_id": "menu_001",
+"restaurante_id": "rest_001",
+"fecha_menu": "2026-06-21",
+"estado_menu": "listo_para_publicar",
+"titulo_menu": "Menú del día",
+"precio_desde": 12.5,
+"precio_hasta": 12.5,
+"primeros": [
+"Lentejas estofadas",
+"Ensalada mixta",
+"Gazpacho"
+],
+"segundos": [
+"Pollo asado con patatas",
+"Merluza a la romana",
+"Albóndigas en salsa"
+],
+"postres": [
+"Flan casero",
+"Fruta del día"
+],
+"bebida_incluida": true,
+"pan_incluido": true,
+"cafe_incluido": false,
+"texto_original": "Menú del día: lentejas, ensalada o gazpacho. De segundo pollo, merluza o albóndigas. Postre o fruta. 12,50 euros.",
+"texto_interpretado": "Menú del día con tres primeros, tres segundos y postre.",
+"keywords": [
+"lentejas",
+"ensalada",
+"gazpacho",
+"pollo",
+"merluza",
+"albondigas",
+"flan",
+"fruta"
+],
+"etiquetas": [
+"cocina_casera",
+"menu_tradicional",
+"precio_moderado"
+],
+"confianza_ia": 0.92,
+"requiere_revision_manual": false,
+"hora_recepcion": "2026-06-21T10:48:00+02:00",
+"hora_preview_enviada": "2026-06-21T10:49:00+02:00",
+"publicable_desde": "2026-06-21T10:52:00+02:00",
+"hora_publicacion": null
+},
+{
+"menu_id": "menu_002",
+"restaurante_id": "rest_002",
+"fecha_menu": "2026-06-21",
+"estado_menu": "en_ventana_revision",
+"titulo_menu": "Menú del día",
+"precio_desde": 14,
+"precio_hasta": 16,
+"primeros": [
+"Salmorejo",
+"Arroz de verduras",
+"Ensalada de tomate"
+],
+"segundos": [
+"Salmón a la plancha",
+"Secreto ibérico",
+"Hamburguesa casera"
+],
+"postres": [
+"Tarta de queso",
+"Yogur"
+],
+"bebida_incluida": true,
+"pan_incluido": true,
+"cafe_incluido": false,
+"texto_original": "Hoy salmorejo, arroz o ensalada. Segundos: salmón, secreto o hamburguesa. Desde 14 euros.",
+"texto_interpretado": "Menú con precio variable según segundo plato.",
+"keywords": [
+"salmorejo",
+"arroz",
+"ensalada",
+"salmon",
+"secreto",
+"hamburguesa",
+"tarta",
+"yogur"
+],
+"etiquetas": [
+"precio_variable",
+"pescado",
+"carne"
+],
+"confianza_ia": 0.88,
+"requiere_revision_manual": false,
+"hora_recepcion": "2026-06-21T11:01:00+02:00",
+"hora_preview_enviada": "2026-06-21T11:02:00+02:00",
+"publicable_desde": "2026-06-21T11:05:00+02:00",
+"hora_publicacion": null
+},
+{
+"menu_id": "menu_003",
+"restaurante_id": "rest_003",
+"fecha_menu": "2026-06-21",
+"estado_menu": "requiere_revision_manual",
+"titulo_menu": "Menú italiano",
+"precio_desde": 13.5,
+"precio_hasta": 13.5,
+"primeros": [
+"Burrata con tomate",
+"Crema de calabacín"
+],
+"segundos": [
+"Focaccia rellena",
+"Pasta boloñesa"
+],
+"postres": [
+"Tiramisú"
+],
+"bebida_incluida": true,
+"pan_incluido": true,
+"cafe_incluido": false,
+"texto_original": "Burrata o crema. Focaccia o pasta. Tiramisú. Precio 13,50.",
+"texto_interpretado": "Menú italiano con dos primeros, dos segundos y postre.",
+"keywords": [
+"burrata",
+"tomate",
+"calabacin",
+"focaccia",
+"pasta",
+"bolonesa",
+"tiramisu"
+],
+"etiquetas": [
+"italiano",
+"pasta",
+"requiere_revision"
+],
+"confianza_ia": 0.66,
+"requiere_revision_manual": true,
+"hora_recepcion": "2026-06-21T11:08:00+02:00",
+"hora_preview_enviada": null,
+"publicable_desde": null,
+"hora_publicacion": null
+}
+],
+"publicaciones": [
+{
+"publicacion_id": "pub_001",
+"menu_id": "menu_001",
+"restaurante_id": "rest_001",
+"estado_publicacion": "lista",
+"publicable_desde": "2026-06-21T10:52:00+02:00",
+"lote_id": null,
+"incluido_en_commit": false,
+"publicado_en": null,
+"ruta_html": "restaurantes/casa-pepe-generado/index.html",
+"ruta_json": "data/busqueda-menus-hoy.json",
+"motivo_bloqueo": "",
+"intentos": 0,
+"ultimo_error": ""
+},
+{
+"publicacion_id": "pub_002",
+"menu_id": "menu_002",
+"restaurante_id": "rest_002",
+"estado_publicacion": "retenida_en_revision",
+"publicable_desde": "2026-06-21T11:05:00+02:00",
+"lote_id": null,
+"incluido_en_commit": false,
+"publicado_en": null,
+"ruta_html": "restaurantes/pivo-generado/index.html",
+"ruta_json": "data/busqueda-menus-hoy.json",
+"motivo_bloqueo": "ventana_revision_no_finalizada",
+"intentos": 0,
+"ultimo_error": ""
+},
+{
+"publicacion_id": "pub_003",
+"menu_id": "menu_003",
+"restaurante_id": "rest_003",
+"estado_publicacion": "retenida_en_revision",
+"publicable_desde": null,
+"lote_id": null,
+"incluido_en_commit": false,
+"publicado_en": null,
+"ruta_html": "restaurantes/focaccia-generado/index.html",
+"ruta_json": "data/busqueda-menus-hoy.json",
+"motivo_bloqueo": "requiere_revision_manual",
+"intentos": 0,
+"ultimo_error": ""
+}
+],
+"lotes": []
+}
