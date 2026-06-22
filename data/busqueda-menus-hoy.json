@@ -36,5 +36,43 @@
       "menu_tradicional",
       "precio_moderado"
     ]
+  },
+  {
+    "restaurante": "Pivo Demo",
+    "slug": "pivo-generado",
+    "municipio": "Hoyo de Manzanares",
+    "url": "/restaurantes/pivo-generado/",
+    "fecha_menu": "2026-06-21",
+    "estado_menu": "listo_para_publicar",
+    "lat": 40.6235,
+    "lng": -3.9088,
+    "titulo_menu": "Menú del día",
+    "precio_desde": 14,
+    "precio_hasta": 16,
+    "platos": [
+      "Salmorejo",
+      "Arroz de verduras",
+      "Ensalada de tomate",
+      "Salmón a la plancha",
+      "Secreto ibérico",
+      "Hamburguesa casera",
+      "Tarta de queso",
+      "Yogur"
+    ],
+    "keywords": [
+      "salmorejo",
+      "arroz",
+      "ensalada",
+      "salmon",
+      "secreto",
+      "hamburguesa",
+      "tarta",
+      "yogur"
+    ],
+    "etiquetas": [
+      "precio_variable",
+      "pescado",
+      "carne"
+    ]
   }
 ]
