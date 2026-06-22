@@ -8,7 +8,8 @@
     "generar:ficha-demo": "node scripts/generar-ficha-demo.js",
     "generar:busqueda-demo": "node scripts/generar-busqueda-demo.js",
     "generar:lote-demo": "node scripts/generar-lote-demo.js",
-    "generar:airtable-demo": "node scripts/generar-desde-airtable-demo.js"
+    "generar:airtable-demo": "node scripts/generar-desde-airtable-demo.js",
+    "validar:busqueda-demo": "node scripts/validar-busqueda-demo.js"
   },
   "keywords": [
     "buscamenu",
