@@ -28,7 +28,7 @@ function main() {
   console.log("Resultado esperado:");
   console.log("- Casa Pepe Demo publicado");
   console.log("- Pivo Demo publicado");
-  console.log("- Focaccia Demo retenido por revisión manual");
+  console.log("- Focaccia Demo publicado tras revisión");
 }
 
 main();
