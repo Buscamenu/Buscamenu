@@ -244,5 +244,69 @@
       }
     ],
     "retenidos": []
+  },
+  {
+    "lote_id": "lote_demo_2026-06-23T15-02-09-026Z",
+    "generado_en": "2026-06-23T15:02:09.026Z",
+    "publicados_total": 2,
+    "retenidos_total": 1,
+    "publicados": [
+      {
+        "restaurante": "Casa Pepe Demo",
+        "slug": "casa-pepe-generado",
+        "fecha_menu": "2026-06-21",
+        "precio_desde": 12.5,
+        "precio_hasta": 12.5
+      },
+      {
+        "restaurante": "Pivo Demo",
+        "slug": "pivo-generado",
+        "fecha_menu": "2026-06-21",
+        "precio_desde": 14,
+        "precio_hasta": 16
+      }
+    ],
+    "retenidos": [
+      {
+        "restaurante": "Focaccia Demo",
+        "slug": "focaccia-generado",
+        "menu_id": "menu_003",
+        "estado_menu": "en_revision_por_correccion",
+        "estado_publicacion": "retirada_por_correccion",
+        "motivo_bloqueo": "correccion_recibida"
+      }
+    ]
+  },
+  {
+    "lote_id": "lote_demo_2026-06-23T15-03-30-184Z",
+    "generado_en": "2026-06-23T15:03:30.184Z",
+    "publicados_total": 2,
+    "retenidos_total": 1,
+    "publicados": [
+      {
+        "restaurante": "Casa Pepe Demo",
+        "slug": "casa-pepe-generado",
+        "fecha_menu": "2026-06-21",
+        "precio_desde": 12.5,
+        "precio_hasta": 12.5
+      },
+      {
+        "restaurante": "Pivo Demo",
+        "slug": "pivo-generado",
+        "fecha_menu": "2026-06-21",
+        "precio_desde": 14,
+        "precio_hasta": 16
+      }
+    ],
+    "retenidos": [
+      {
+        "restaurante": "Focaccia Demo",
+        "slug": "focaccia-generado",
+        "menu_id": "menu_003",
+        "estado_menu": "en_revision_por_correccion",
+        "estado_publicacion": "retirada_por_correccion",
+        "motivo_bloqueo": "correccion_recibida"
+      }
+    ]
   }
 ]

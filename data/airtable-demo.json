@@ -173,7 +173,7 @@
       "menu_id": "menu_003",
       "restaurante_id": "rest_003",
       "fecha_menu": "2026-06-21",
-      "estado_menu": "listo_para_publicar",
+      "estado_menu": "en_revision_por_correccion",
       "titulo_menu": "Menú italiano",
       "precio_desde": 13.5,
       "precio_hasta": 13.5,
@@ -191,7 +191,7 @@
       "bebida_incluida": true,
       "pan_incluido": true,
       "cafe_incluido": false,
-      "texto_original": "Burrata o crema. Focaccia o pasta. Tiramisú. Precio 13,50.",
+      "texto_original": "Burrata o crema. Focaccia o pasta. Tiramisú. Precio 13,50.\n\nCORRECCIÓN recibida por WhatsApp: revisar ingredientes y precio antes de republicar.",
       "texto_interpretado": "Menú italiano con dos primeros, dos segundos y postre.",
       "keywords": [
         "burrata",
@@ -208,10 +208,10 @@
         "requiere_revision"
       ],
       "confianza_ia": 0.66,
-      "requiere_revision_manual": false,
+      "requiere_revision_manual": true,
       "hora_recepcion": "2026-06-21T11:08:00+02:00",
       "hora_preview_enviada": null,
-      "publicable_desde": "2026-06-23T10:19:37.024Z",
+      "publicable_desde": null,
       "hora_publicacion": null
     }
   ],
@@ -250,14 +250,14 @@
       "publicacion_id": "pub_003",
       "menu_id": "menu_003",
       "restaurante_id": "rest_003",
-      "estado_publicacion": "lista",
-      "publicable_desde": "2026-06-23T10:19:37.024Z",
+      "estado_publicacion": "retirada_por_correccion",
+      "publicable_desde": null,
       "lote_id": null,
       "incluido_en_commit": false,
       "publicado_en": null,
       "ruta_html": "restaurantes/focaccia-generado/index.html",
       "ruta_json": "data/busqueda-menus-hoy.json",
-      "motivo_bloqueo": "",
+      "motivo_bloqueo": "correccion_recibida",
       "intentos": 0,
       "ultimo_error": ""
     }

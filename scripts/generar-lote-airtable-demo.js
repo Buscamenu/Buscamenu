@@ -25,10 +25,8 @@ function main() {
 
   console.log("");
   console.log("Lote Airtable demo generado y validado correctamente.");
-  console.log("Resultado esperado:");
-  console.log("- Casa Pepe Demo publicado");
-  console.log("- Pivo Demo publicado");
-  console.log("- Focaccia Demo publicado tras revisión");
+  console.log("Resultado validado según los estados actuales de Airtable demo.");
+  console.log("Consulta data/lotes-demo.json para ver publicados y retenidos.");
 }
 
 main();
