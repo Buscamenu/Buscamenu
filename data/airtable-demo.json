@@ -211,8 +211,8 @@
       "requiere_revision_manual": false,
       "hora_recepcion": "2026-06-21T11:08:00+02:00",
       "hora_preview_enviada": null,
-      "publicable_desde": "2026-06-23T15:06:52.768Z",
-      "hora_publicacion": "2026-06-23T15:06:52.768Z"
+      "publicable_desde": "2026-06-23T18:45:40.002Z",
+      "hora_publicacion": "2026-06-23T18:45:40.002Z"
     }
   ],
   "publicaciones": [
@@ -251,7 +251,7 @@
       "menu_id": "menu_003",
       "restaurante_id": "rest_003",
       "estado_publicacion": "lista",
-      "publicable_desde": "2026-06-23T15:06:52.768Z",
+      "publicable_desde": "2026-06-23T18:45:40.002Z",
       "lote_id": null,
       "incluido_en_commit": false,
       "publicado_en": null,
