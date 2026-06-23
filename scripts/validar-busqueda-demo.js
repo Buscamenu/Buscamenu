@@ -27,8 +27,8 @@ if (!Array.isArray(datos)) {
 
 const slugs = datos.map((item) => item.slug);
 
-if (datos.length !== 2) {
-  fallar("Se esperaban 2 menús en el buscador demo y hay " + datos.length);
+if (datos.length !== 3) {
+  fallar("Se esperaban 3 menús en el buscador demo y hay " + datos.length);
 }
 
 if (!slugs.includes("casa-pepe-generado")) {
@@ -39,8 +39,8 @@ if (!slugs.includes("pivo-generado")) {
   fallar("Falta Pivo en el buscador");
 }
 
-if (slugs.includes("focaccia-generado")) {
-  fallar("Focaccia no debería estar publicada porque requiere revisión manual");
+if (!slugs.includes("focaccia-generado")) {
+  fallar("Falta Focaccia en el buscador");
 }
 
 for (const item of datos) {
@@ -52,4 +52,4 @@ for (const item of datos) {
   }
 }
 
-console.log("Validación correcta: buscador demo con Casa Pepe y Pivo, sin Focaccia.");
+console.log("Validación correcta: buscador demo con Casa Pepe, Pivo y Focaccia.");

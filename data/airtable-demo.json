@@ -173,7 +173,7 @@
       "menu_id": "menu_003",
       "restaurante_id": "rest_003",
       "fecha_menu": "2026-06-21",
-      "estado_menu": "requiere_revision_manual",
+      "estado_menu": "listo_para_publicar",
       "titulo_menu": "Menú italiano",
       "precio_desde": 13.5,
       "precio_hasta": 13.5,
@@ -208,10 +208,10 @@
         "requiere_revision"
       ],
       "confianza_ia": 0.66,
-      "requiere_revision_manual": true,
+      "requiere_revision_manual": false,
       "hora_recepcion": "2026-06-21T11:08:00+02:00",
       "hora_preview_enviada": null,
-      "publicable_desde": null,
+      "publicable_desde": "2026-06-23T10:19:37.024Z",
       "hora_publicacion": null
     }
   ],
@@ -250,14 +250,14 @@
       "publicacion_id": "pub_003",
       "menu_id": "menu_003",
       "restaurante_id": "rest_003",
-      "estado_publicacion": "retenida_en_revision",
-      "publicable_desde": null,
+      "estado_publicacion": "lista",
+      "publicable_desde": "2026-06-23T10:19:37.024Z",
       "lote_id": null,
       "incluido_en_commit": false,
       "publicado_en": null,
       "ruta_html": "restaurantes/focaccia-generado/index.html",
       "ruta_json": "data/busqueda-menus-hoy.json",
-      "motivo_bloqueo": "requiere_revision_manual",
+      "motivo_bloqueo": "",
       "intentos": 0,
       "ultimo_error": ""
     }

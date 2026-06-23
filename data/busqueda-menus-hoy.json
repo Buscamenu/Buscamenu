@@ -74,5 +74,39 @@
       "pescado",
       "carne"
     ]
+  },
+  {
+    "restaurante": "Focaccia Demo",
+    "slug": "focaccia-generado",
+    "municipio": "Hoyo de Manzanares",
+    "url": "/restaurantes/focaccia-generado/",
+    "fecha_menu": "2026-06-21",
+    "estado_menu": "listo_para_publicar",
+    "lat": 40.6219,
+    "lng": -3.9065,
+    "titulo_menu": "Menú italiano",
+    "precio_desde": 13.5,
+    "precio_hasta": 13.5,
+    "platos": [
+      "Burrata con tomate",
+      "Crema de calabacín",
+      "Focaccia rellena",
+      "Pasta boloñesa",
+      "Tiramisú"
+    ],
+    "keywords": [
+      "burrata",
+      "tomate",
+      "calabacin",
+      "focaccia",
+      "pasta",
+      "bolonesa",
+      "tiramisu"
+    ],
+    "etiquetas": [
+      "italiano",
+      "pasta",
+      "requiere_revision"
+    ]
   }
 ]

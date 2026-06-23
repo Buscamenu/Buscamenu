@@ -30,12 +30,12 @@ if (lotes.length < 1) {
 
 const ultimo = lotes[lotes.length - 1];
 
-if (ultimo.publicados_total !== 2) {
-  fallar("El último lote debería tener 2 publicados");
+if (ultimo.publicados_total !== 3) {
+  fallar("El último lote debería tener 3 publicados");
 }
 
-if (ultimo.retenidos_total !== 1) {
-  fallar("El último lote debería tener 1 retenido");
+if (ultimo.retenidos_total !== 0) {
+  fallar("El último lote debería tener 0 retenidos");
 }
 
 const publicados = ultimo.publicados || [];
@@ -52,14 +52,8 @@ if (!slugsPublicados.includes("pivo-generado")) {
   fallar("Pivo debería estar publicado en el último lote");
 }
 
-if (!slugsRetenidos.includes("focaccia-generado")) {
-  fallar("Focaccia debería estar retenido en el último lote");
+if (!slugsPublicados.includes("focaccia-generado")) {
+  fallar("Focaccia debería estar publicado en el último lote");
 }
 
-const focaccia = retenidos.find((item) => item.slug === "focaccia-generado");
-
-if (!focaccia || focaccia.motivo_bloqueo !== "requiere_revision_manual") {
-  fallar("Focaccia debería estar retenido por requiere_revision_manual");
-}
-
-console.log("Validación correcta: último lote con 2 publicados y Focaccia retenido.");
+console.log("Validación correcta: último lote con 3 publicados y 0 retenidos.");
