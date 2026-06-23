@@ -62,5 +62,37 @@
         "motivo_bloqueo": "requiere_revision_manual"
       }
     ]
+  },
+  {
+    "lote_id": "lote_demo_2026-06-23T10-09-33-227Z",
+    "generado_en": "2026-06-23T10:09:33.227Z",
+    "publicados_total": 2,
+    "retenidos_total": 1,
+    "publicados": [
+      {
+        "restaurante": "Casa Pepe Demo",
+        "slug": "casa-pepe-generado",
+        "fecha_menu": "2026-06-21",
+        "precio_desde": 12.5,
+        "precio_hasta": 12.5
+      },
+      {
+        "restaurante": "Pivo Demo",
+        "slug": "pivo-generado",
+        "fecha_menu": "2026-06-21",
+        "precio_desde": 14,
+        "precio_hasta": 16
+      }
+    ],
+    "retenidos": [
+      {
+        "restaurante": "Focaccia Demo",
+        "slug": "focaccia-generado",
+        "menu_id": "menu_003",
+        "estado_menu": "requiere_revision_manual",
+        "estado_publicacion": "retenida_en_revision",
+        "motivo_bloqueo": "requiere_revision_manual"
+      }
+    ]
   }
 ]
