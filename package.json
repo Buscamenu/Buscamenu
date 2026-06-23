@@ -11,7 +11,9 @@
     "generar:airtable-demo": "node scripts/generar-desde-airtable-demo.js",
     "validar:busqueda-demo": "node scripts/validar-busqueda-demo.js",
     "generar:lote-airtable-demo": "node scripts/generar-lote-airtable-demo.js",
-    "validar:lotes-demo": "node scripts/validar-lotes-demo.js"
+    "validar:lotes-demo": "node scripts/validar-lotes-demo.js",
+    "escenario:focaccia-correccion": "node scripts/escenario-focaccia-correccion.js",
+    "escenario:focaccia-republicada": "node scripts/escenario-focaccia-republicada.js"
   },
   "keywords": [
     "buscamenu",
