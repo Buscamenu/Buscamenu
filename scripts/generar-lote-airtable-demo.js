@@ -20,6 +20,7 @@ function main() {
 
   runScript("generar-desde-airtable-demo.js");
   runScript("validar-busqueda-demo.js");
+  runScript("registrar-lote-airtable-demo.js");
 
   console.log("");
   console.log("Lote Airtable demo generado y validado correctamente.");
