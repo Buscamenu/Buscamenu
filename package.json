@@ -10,7 +10,8 @@
     "generar:lote-demo": "node scripts/generar-lote-demo.js",
     "generar:airtable-demo": "node scripts/generar-desde-airtable-demo.js",
     "validar:busqueda-demo": "node scripts/validar-busqueda-demo.js",
-    "generar:lote-airtable-demo": "node scripts/generar-lote-airtable-demo.js"
+    "generar:lote-airtable-demo": "node scripts/generar-lote-airtable-demo.js",
+    "validar:lotes-demo": "node scripts/validar-lotes-demo.js"
   },
   "keywords": [
     "buscamenu",
