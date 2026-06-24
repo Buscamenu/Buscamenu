@@ -119,6 +119,12 @@ secciones,
 ].join("\n");
 }
 
+function htmlMenus(menus) {
+return (menus || []).map(function(menu) {
+return htmlMenu(menu);
+}).join("\n\n");
+}
+
 function replaceAllMarkers(template, values) {
 let html = template;
 
@@ -160,7 +166,7 @@ if (fechaPublicable > ahora) return false;
 return true;
 }
 
-function generarFicha(template, restaurante, menu) {
+function generarFicha(template, restaurante, menus) {
 const outputDir = path.join(ROOT, "restaurantes", restaurante.slug);
 const outputPath = path.join(outputDir, "index.html");
 
@@ -200,7 +206,7 @@ restaurante.google_maps_url,
 restaurante.web,
 "Ver carta"
 ),
-"[HTML_MENU]": htmlMenu(menu),
+"[HTML_MENU]": htmlMenus(menus),
 "[HTML_HISTORICO]": htmlHistorico()
 };
 
@@ -277,8 +283,21 @@ console.log("No hay menús listos para publicar. No se genera ningún lote.");
 return;
 }
 
+const gruposPorRestaurante = new Map();
+
 publicables.forEach(function(item) {
-const outputPath = generarFicha(template, item.restaurante, item.menu);
+const key = item.restaurante.restaurante_id;
+if (!gruposPorRestaurante.has(key)) {
+gruposPorRestaurante.set(key, {
+restaurante: item.restaurante,
+menus: []
+});
+}
+gruposPorRestaurante.get(key).menus.push(item.menu);
+});
+
+gruposPorRestaurante.forEach(function(grupo) {
+const outputPath = generarFicha(template, grupo.restaurante, grupo.menus);
 console.log("Ficha generada: " + outputPath);
 });
 

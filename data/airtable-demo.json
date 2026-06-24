@@ -121,55 +121,6 @@
       "hora_publicacion": null
     },
     {
-      "menu_id": "menu_002",
-      "restaurante_id": "rest_002",
-      "fecha_menu": "2026-06-21",
-      "estado_menu": "listo_para_publicar",
-      "titulo_menu": "Menú del día",
-      "precio_desde": 14,
-      "precio_hasta": 16,
-      "primeros": [
-        "Salmorejo",
-        "Arroz de verduras",
-        "Ensalada de tomate"
-      ],
-      "segundos": [
-        "Salmón a la plancha",
-        "Secreto ibérico",
-        "Hamburguesa casera"
-      ],
-      "postres": [
-        "Tarta de queso",
-        "Yogur"
-      ],
-      "bebida_incluida": true,
-      "pan_incluido": true,
-      "cafe_incluido": false,
-      "texto_original": "Hoy salmorejo, arroz o ensalada. Segundos: salmón, secreto o hamburguesa. Desde 14 euros.",
-      "texto_interpretado": "Menú con precio variable según segundo plato.",
-      "keywords": [
-        "salmorejo",
-        "arroz",
-        "ensalada",
-        "salmon",
-        "secreto",
-        "hamburguesa",
-        "tarta",
-        "yogur"
-      ],
-      "etiquetas": [
-        "precio_variable",
-        "pescado",
-        "carne"
-      ],
-      "confianza_ia": 0.88,
-      "requiere_revision_manual": false,
-      "hora_recepcion": "2026-06-21T11:01:00+02:00",
-      "hora_preview_enviada": "2026-06-21T11:02:00+02:00",
-      "publicable_desde": "2026-06-22T12:00:01.626Z",
-      "hora_publicacion": null
-    },
-    {
       "menu_id": "menu_003",
       "restaurante_id": "rest_003",
       "fecha_menu": "2026-06-21",
@@ -213,6 +164,98 @@
       "hora_preview_enviada": null,
       "publicable_desde": "2026-06-23T18:45:40.002Z",
       "hora_publicacion": "2026-06-23T18:45:40.002Z"
+    },
+    {
+      "menu_id": "menu_002_a",
+      "restaurante_id": "rest_002",
+      "fecha_menu": "2026-06-21",
+      "estado_menu": "listo_para_publicar",
+      "titulo_menu": "Menú del día",
+      "precio_desde": 14,
+      "precio_hasta": 14,
+      "primeros": [
+        "Salmorejo",
+        "Arroz de verduras",
+        "Ensalada de tomate"
+      ],
+      "segundos": [
+        "Hamburguesa casera",
+        "Pollo al ajillo"
+      ],
+      "postres": [
+        "Yogur",
+        "Fruta de temporada"
+      ],
+      "bebida_incluida": true,
+      "pan_incluido": true,
+      "cafe_incluido": false,
+      "texto_original": "Menú del día Pivo: salmorejo, arroz de verduras o ensalada. Segundos: hamburguesa casera o pollo al ajillo. Precio 14 euros.",
+      "texto_interpretado": "Menú del día con precio cerrado de 14 euros.",
+      "keywords": [
+        "salmorejo",
+        "arroz",
+        "ensalada",
+        "hamburguesa",
+        "pollo",
+        "yogur",
+        "fruta"
+      ],
+      "etiquetas": [
+        "menu_del_dia",
+        "casero",
+        "economico"
+      ],
+      "confianza_ia": 0.9,
+      "requiere_revision_manual": false,
+      "hora_recepcion": "2026-06-21T11:01:00+02:00",
+      "hora_preview_enviada": "2026-06-21T11:02:00+02:00",
+      "publicable_desde": "2026-06-22T12:00:01.626Z",
+      "hora_publicacion": null
+    },
+    {
+      "menu_id": "menu_002_b",
+      "restaurante_id": "rest_002",
+      "fecha_menu": "2026-06-21",
+      "estado_menu": "listo_para_publicar",
+      "titulo_menu": "Menú ejecutivo",
+      "precio_desde": 16,
+      "precio_hasta": 16,
+      "primeros": [
+        "Ensalada templada",
+        "Crema de verduras"
+      ],
+      "segundos": [
+        "Salmón a la plancha",
+        "Secreto ibérico"
+      ],
+      "postres": [
+        "Tarta de queso",
+        "Café"
+      ],
+      "bebida_incluida": true,
+      "pan_incluido": true,
+      "cafe_incluido": true,
+      "texto_original": "Menú ejecutivo Pivo: ensalada templada o crema de verduras. Segundos: salmón a la plancha o secreto ibérico. Incluye café. Precio 16 euros.",
+      "texto_interpretado": "Menú ejecutivo con platos distintos y precio cerrado de 16 euros.",
+      "keywords": [
+        "ensalada templada",
+        "crema",
+        "salmon",
+        "secreto",
+        "tarta",
+        "cafe"
+      ],
+      "etiquetas": [
+        "menu_ejecutivo",
+        "pescado",
+        "carne"
+      ],
+      "confianza_ia": 0.9,
+      "requiere_revision_manual": false,
+      "hora_recepcion": "2026-06-21T11:01:00+02:00",
+      "hora_preview_enviada": "2026-06-21T11:02:00+02:00",
+      "publicable_desde": "2026-06-22T12:00:01.626Z",
+      "hora_publicacion": null
     }
   ],
   "publicaciones": [
@@ -232,8 +275,23 @@
       "ultimo_error": ""
     },
     {
-      "publicacion_id": "pub_002",
-      "menu_id": "menu_002",
+      "publicacion_id": "pub_003",
+      "menu_id": "menu_003",
+      "restaurante_id": "rest_003",
+      "estado_publicacion": "lista",
+      "publicable_desde": "2026-06-23T18:45:40.002Z",
+      "lote_id": null,
+      "incluido_en_commit": false,
+      "publicado_en": null,
+      "ruta_html": "restaurantes/focaccia-generado/index.html",
+      "ruta_json": "data/busqueda-menus-hoy.json",
+      "motivo_bloqueo": "",
+      "intentos": 0,
+      "ultimo_error": ""
+    },
+    {
+      "publicacion_id": "pub_002_a",
+      "menu_id": "menu_002_a",
       "restaurante_id": "rest_002",
       "estado_publicacion": "lista",
       "publicable_desde": "2026-06-22T12:00:01.626Z",
@@ -247,15 +305,15 @@
       "ultimo_error": ""
     },
     {
-      "publicacion_id": "pub_003",
-      "menu_id": "menu_003",
-      "restaurante_id": "rest_003",
+      "publicacion_id": "pub_002_b",
+      "menu_id": "menu_002_b",
+      "restaurante_id": "rest_002",
       "estado_publicacion": "lista",
-      "publicable_desde": "2026-06-23T18:45:40.002Z",
+      "publicable_desde": "2026-06-22T12:00:01.626Z",
       "lote_id": null,
       "incluido_en_commit": false,
       "publicado_en": null,
-      "ruta_html": "restaurantes/focaccia-generado/index.html",
+      "ruta_html": "restaurantes/pivo-generado/index.html",
       "ruta_json": "data/busqueda-menus-hoy.json",
       "motivo_bloqueo": "",
       "intentos": 0,
